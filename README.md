@@ -1,6 +1,8 @@
 # custom-cpp-vector-toy
 A basic, custom implementation of the std vector class in c++ using dynamic arrays 
 
+This code was specifically compiled with C++17 but should work with C++11 too. Make sure the .h header file is in the same working directory as the .cpp file
+
 The basic format for the contructor is C_vector vec(T* arr,int size). Where arr is a dnyamic array and size is the size of the array before pass through.
 
 This class supports all data types the std::vector class can and has some basic functions like:
